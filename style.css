@@ -1,0 +1,76 @@
+/* Add your custom styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header, nav, main, footer {
+    padding: 20px;
+  }
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: wrap;
+  }
+
+  
+  
+  header {
+    background-color: pink;
+    color: #a40a0a;
+  }
+  
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: #666;
+  }
+  
+ /* Footer Styles */
+ footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.footer-link {
+  display: inline-block;
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-link img {
+  width: 20px;
+  height: 18px;
+  margin-right: 5px;
+}
+

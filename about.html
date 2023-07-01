@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" href="Sicon.jpeg">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    header {
+      background-color: rgb(1, 8, 12);
+      padding: 15px;
+      text-align: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1; /* Add z-index to keep header on top */
+      display: flex; /* Add flex display to align items horizontally */
+      justify-content: center; /* Center items horizontally */
+      align-items: center; /* Center items vertically */
+    }
+    body {
+      background-color: #0672b0; /* Change the background color to a light gray color */
+      color: #fff;
+      margin-top: 80px; /* Add margin-top to create space for the fixed header */
+    }
+    nav {
+      padding: 10px;
+      width: 100%;
+      position: fixed;
+      left: 0;
+      top: 0; /* Update to top: 0 to fix the nav at the top of the page */
+      right: 0;
+      overflow: auto; /* Allow horizontal scrolling if necessary */
+    }
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: flex-end; /* Align navigation links to the right */
+    }
+    nav ul li {
+      margin-left: 10px; /* Use margin-left instead of margin-right for spacing between navigation items */
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+    header h1 {
+      margin: 0;
+    }
+    main {
+      margin-top: 70px; /* Adjust the top margin to create space for the fixed navigation bar */
+    }
+    footer {
+      background-color: rgb(1, 8, 12);
+      padding: 5px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>About Me</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>My Background</h2>
+   <p>I am a passionate web developer with experience in HTML, CSS, and JavaScript.</p>
+    <p>I have worked on various projects and enjoy creating engaging web experiences.</p>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+  </footer>
+</body>
+</html>
